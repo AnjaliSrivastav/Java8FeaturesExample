@@ -40,14 +40,15 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Application.ThreadUsingInnerClass">
-    <configuration name="ComparatorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.lambdaexpression.ComparatorEx" />
+  <component name="RunManager" selected="Application.ConsumerEx">
+    <configuration name="ConsumerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.ConsumerEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8features.lambdaexpression.*" />
+          <option name="PATTERN" value="com.java8features.functionalinterface.predefinedfunctionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeSortEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.lambdaexpression.EmployeeSortEx" />
+    <configuration name="FunctionChainingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.FunctionChainingEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8features.lambdaexpression.*" />
+          <option name="PATTERN" value="com.java8features.functionalinterface.predefinedfunctionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,8 +69,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.InterfImplementation" />
+    <configuration name="FunctionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.FunctionEx" />
+      <module name="Java8FeaturesExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8features.functionalinterface.predefinedfunctionalinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateJoiningEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.PredicateJoiningEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
@@ -81,25 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutiThreadingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.lambdaexpression.MutiThreadingEx" />
+    <configuration name="StudentEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.StudentEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8features.lambdaexpression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadUsingInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.lambdaexpression.ThreadUsingInnerClass" />
-      <module name="Java8FeaturesExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java8features.lambdaexpression.*" />
+          <option name="PATTERN" value="com.java8features.functionalinterface.predefinedfunctionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadUsingInnerClass" />
-        <item itemvalue="Application.EmployeeSortEx" />
-        <item itemvalue="Application.ComparatorEx" />
-        <item itemvalue="Application.MutiThreadingEx" />
-        <item itemvalue="Application.InterfImplementation" />
+        <item itemvalue="Application.ConsumerEx" />
+        <item itemvalue="Application.FunctionChainingEx" />
+        <item itemvalue="Application.StudentEx" />
+        <item itemvalue="Application.FunctionEx" />
+        <item itemvalue="Application.PredicateJoiningEx" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650738761134</updated>
       <workItem from="1650738765475" duration="3184000" />
-      <workItem from="1650779127499" duration="11791000" />
+      <workItem from="1650779127499" duration="24299000" />
     </task>
     <servers />
   </component>
@@ -152,22 +153,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1650792192324" />
-    <state width="1481" height="187" key="GridCell.Tab.0.bottom" timestamp="1650794180713">
+    <state width="1481" height="187" key="GridCell.Tab.0.bottom" timestamp="1650814847580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650794180713" />
-    <state width="1481" height="187" key="GridCell.Tab.0.center" timestamp="1650794180713">
+    <state width="1481" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650814847580" />
+    <state width="1481" height="187" key="GridCell.Tab.0.center" timestamp="1650814847580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1650794180713" />
-    <state width="1481" height="187" key="GridCell.Tab.0.left" timestamp="1650794180713">
+    <state width="1481" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1650814847580" />
+    <state width="1481" height="187" key="GridCell.Tab.0.left" timestamp="1650814847580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1650794180713" />
-    <state width="1481" height="187" key="GridCell.Tab.0.right" timestamp="1650794180713">
+    <state width="1481" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1650814847580" />
+    <state width="1481" height="187" key="GridCell.Tab.0.right" timestamp="1650814847580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1650794180713" />
+    <state width="1481" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1650814847580" />
+    <state x="161" y="0" key="SettingsEditor" timestamp="1650812314180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="161" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1650812314180" />
     <state x="401" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1650780226449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -176,5 +181,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="546" y="310" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1650741381500" />
+    <state x="341" y="183" key="run.anything.popup" timestamp="1650802699398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1650802699398" />
   </component>
 </project>
