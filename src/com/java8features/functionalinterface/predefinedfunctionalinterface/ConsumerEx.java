@@ -2,6 +2,7 @@ package com.java8features.functionalinterface.predefinedfunctionalinterface;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class ConsumerEx {
     public static void main(String []args){
@@ -25,9 +26,11 @@ public class ConsumerEx {
 
 
         Consumer<Student> studentConsumer = s-> System.out.println(s+" and Grade is :"+f.apply(s));
-
-        /*for(Student){
-
-        }*/
+        Predicate<Student> p = student-> student.marks>70;
+        for(Student s:students){
+             if(p.test(s)){
+                 studentConsumer.accept(s);
+             }
+        }
     }
 }

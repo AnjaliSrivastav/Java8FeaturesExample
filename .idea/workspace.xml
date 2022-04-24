@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79e61e95-2756-4676-9818-b9377b7a099e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java8features/functionalinterface/predefinedfunctionalinterface/ConsumerEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java8features/functionalinterface/predefinedfunctionalinterface/ConsumerEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +43,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Application.ConsumerEx">
-    <configuration name="ConsumerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.ConsumerEx" />
+  <component name="RunManager" selected="Application.BiFunctionEx">
+    <configuration name="BiFunctionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.BiFunctionEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionChainingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.FunctionChainingEx" />
+    <configuration name="BiPredicateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.BiPredicateEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.FunctionEx" />
+    <configuration name="ConsumerChainingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.ConsumerChainingEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateJoiningEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.PredicateJoiningEx" />
+    <configuration name="RandomOTPSupplierEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.RandomOTPSupplierEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8features.functionalinterface.*" />
+          <option name="PATTERN" value="com.java8features.functionalinterface.predefinedfunctionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.StudentEx" />
+    <configuration name="SupplierEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8features.functionalinterface.predefinedfunctionalinterface.SupplierEx" />
       <module name="Java8FeaturesExample" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerEx" />
-        <item itemvalue="Application.FunctionChainingEx" />
-        <item itemvalue="Application.StudentEx" />
-        <item itemvalue="Application.FunctionEx" />
-        <item itemvalue="Application.PredicateJoiningEx" />
+        <item itemvalue="Application.BiFunctionEx" />
+        <item itemvalue="Application.BiPredicateEx" />
+        <item itemvalue="Application.RandomOTPSupplierEx" />
+        <item itemvalue="Application.SupplierEx" />
+        <item itemvalue="Application.ConsumerChainingEx" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,8 @@
       <option name="presentableId" value="Default" />
       <updated>1650738761134</updated>
       <workItem from="1650738765475" duration="3184000" />
-      <workItem from="1650779127499" duration="24299000" />
+      <workItem from="1650779127499" duration="24944000" />
+      <workItem from="1650821470509" duration="3107000" />
     </task>
     <servers />
   </component>
@@ -153,30 +155,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1650792192324" />
-    <state width="1481" height="187" key="GridCell.Tab.0.bottom" timestamp="1650814847580">
+    <state width="1481" height="187" key="GridCell.Tab.0.bottom" timestamp="1650828818887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650814847580" />
-    <state width="1481" height="187" key="GridCell.Tab.0.center" timestamp="1650814847580">
+    <state width="1481" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650828818887" />
+    <state width="1481" height="187" key="GridCell.Tab.0.center" timestamp="1650828818887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1650814847580" />
-    <state width="1481" height="187" key="GridCell.Tab.0.left" timestamp="1650814847580">
+    <state width="1481" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1650828818887" />
+    <state width="1481" height="187" key="GridCell.Tab.0.left" timestamp="1650828818887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1650814847580" />
-    <state width="1481" height="187" key="GridCell.Tab.0.right" timestamp="1650814847580">
+    <state width="1481" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1650828818887" />
+    <state width="1481" height="187" key="GridCell.Tab.0.right" timestamp="1650828818887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1650814847580" />
+    <state width="1481" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1650828818887" />
     <state x="161" y="0" key="SettingsEditor" timestamp="1650812314180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="161" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1650812314180" />
-    <state x="401" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1650780226449">
+    <state x="401" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1650827153412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="401" y="195" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1650780226449" />
+    <state x="401" y="195" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1650827153412" />
     <state x="546" y="310" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650741381500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
